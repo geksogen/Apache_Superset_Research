@@ -18,9 +18,9 @@ sudo chmod +x /usr/local/bin/docker-compose
 ```Bash
 git clone https://github.com/apache/superset.git
 cd superset
-docker compose up
+docker compose up -d
 docker-compose down -v
-docker compose up
+docker compose up -d
 ```
 #### Install Apache Superset Docker
 ```Bash
